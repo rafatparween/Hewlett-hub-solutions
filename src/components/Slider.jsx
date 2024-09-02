@@ -2,7 +2,7 @@ import React from 'react';
 
 const Slider = () => {
   return (
-    <header className="bg-blue-500 h-[630px] relative flex items-center ">
+    <header className="bg-blue-500 h-[630px] relative flex items-center  ">
       <div className="container mx-auto flex flex-col-reverse lg:flex-row items-center">
         <div className="text-white lg:w-1/2 p-8 ml-[203px]">
           <h1 className="text-4xl lg:text-5xl font-semibold mb-4">

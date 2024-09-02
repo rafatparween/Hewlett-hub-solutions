@@ -98,9 +98,9 @@ export default function Membership() {
                   <p className="text-sm font-semibold text-blue-600 mb-4">
                   Hewlett Hub solutions - Annual Plan
                   </p>
-                  <p className="text-3xl font-bold text-gray-900">$16.58</p>
-                  <p className="text-gray-500 line-through">$19.99 / month</p>
-                  <p className="text-gray-500">$199 billed annually</p>
+                  <p className="text-3xl font-bold text-gray-900">$199.99</p>
+                  <p className="text-gray-500 line-through">$199 / month</p>
+                  <p className="text-gray-500">$16.67 billed annually</p>
                   <button
                     onClick={handleSelectMembership}
                     className="mt-6 w-full bg-blue-500 text-white font-semibold py-3 rounded-md hover:bg-blue-600 transition-all"
@@ -115,8 +115,8 @@ export default function Membership() {
                   <p className="text-sm font-semibold text-blue-600 mb-4">
                   Hewlett Hub solutions - Monthly Plan
                   </p>
-                  <p className="text-3xl font-bold text-gray-900">$19.99</p>
-                  <p className="text-gray-500">$19.99 / month</p>
+                  <p className="text-3xl font-bold text-gray-900">$20.00</p>
+                  <p className="text-gray-500">$240 / month</p>
                   <p className="text-gray-500">Billed monthly</p>
                   <button
                     onClick={handleSelectMembership}

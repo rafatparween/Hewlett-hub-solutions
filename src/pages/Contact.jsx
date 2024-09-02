@@ -46,7 +46,7 @@ const ContactPage = () => {
         {/* Form Section */}
         <div className="w-full md:w-1/2 p-10">
           <h2 className="text-4xl font-bold text-[#0C71C3]">Contact Us</h2>
-          <p className="mt-4 text-gray-600">
+          <p className="mt-4 text-[#0C71C3]">
             We'd love to hear from you! Please fill out the form below and we will get in touch with you shortly.
           </p>
           <form className="mt-8 space-y-6" onSubmit={handleSubmit}>
@@ -61,7 +61,7 @@ const ContactPage = () => {
                   type="text"
                   value={formData.name}
                   onChange={handleChange}
-                  className="block w-full px-4 py-3 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-md focus:outline-none focus:ring-[#0C71C3] focus:border-[#0C71C3] sm:text-sm"
+                  className="block w-full px-4 py-3 border border-gray-300 placeholder-[#0C71C3] text-[#0C71C3] rounded-md focus:outline-none focus:ring-[#0C71C3] focus:border-[#0C71C3] sm:text-sm"
                   placeholder="Full Name"
                 />
                 {errors.name && (
@@ -78,7 +78,7 @@ const ContactPage = () => {
                   type="email"
                   value={formData.email}
                   onChange={handleChange}
-                  className="block w-full px-4 py-3 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-md focus:outline-none focus:ring-[#0C71C3] focus:border-[#0C71C3] sm:text-sm"
+                  className="block w-full px-4 py-3 border border-[#0C71C3] placeholder-[#0C71C3] text-[#0C71C3] rounded-md focus:outline-none focus:ring-[#0C71C3] focus:border-[#0C71C3] sm:text-sm"
                   placeholder="Email address"
                 />
                 {errors.email && (
@@ -94,7 +94,7 @@ const ContactPage = () => {
                   name="message"
                   value={formData.message}
                   onChange={handleChange}
-                  className="block w-full px-4 py-3 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-md focus:outline-none focus:ring-[#0C71C3] focus:border-[#0C71C3] sm:text-sm"
+                  className="block w-full px-4 py-3 border border-[#0C71C3] placeholder-[#0C71C3] text-[#0C71C3] rounded-md focus:outline-none focus:ring-[#0C71C3] focus:border-[#0C71C3] sm:text-sm"
                   placeholder="Your message"
                   rows="5"
                 ></textarea>
@@ -107,14 +107,14 @@ const ContactPage = () => {
             <div>
               <button
                 type="submit"
-                className="group relative w-full flex justify-center py-3 px-4 border border-transparent text-lg font-semibold rounded-md text-white bg-[#0C71C3] hover:bg-teal-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#0C71C3]"
+                className="group relative w-full flex justify-center py-3 px-4  font-semibold rounded-md text-white bg-[#0C71C3] hover:bg-[blue] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#0C71C3]"
               >
                 Send Message
               </button>
             </div>
           </form>
           {submitted && (
-            <div className="mt-4 p-4 bg-green-100 border border-green-400 text-green-700 rounded">
+            <div className="mt-4 p-4 bg-[blue] text-[blue] rounded">
               Your response has been submitted!
             </div>
           )}

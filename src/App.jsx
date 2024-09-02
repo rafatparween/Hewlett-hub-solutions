@@ -23,7 +23,8 @@ import Slider from './components/Slider';
 import Testimonials from './components/Testimonials';
 import Technicians from './components/Technicians';
 import Peace from './components/Peace';
-import HelpPage from './sections/HelpPage';
+import HelpPage from './sections/HelpPage'
+import ProductDetailSingle from './pages/product/productDetails';
 
 const App = () => {
   return (
@@ -50,7 +51,7 @@ const App = () => {
           <Route path="/product" element={<PrinterProductList />} />
           <Route path="/product" element={<PrinterProductList />} />
           <Route path="/productdetail/:productID" element={<ProductDetail />} />
-          <Route path="/productdetail/:productID" element={<ProductDetail />} />
+          <Route path="/productdetails/:productID" element={<ProductDetailSingle />} />
           <Route path="/product/:id" element={<ProductDetail />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/cart" element={<Cart />} />

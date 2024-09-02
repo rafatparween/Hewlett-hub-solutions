@@ -1,6 +1,7 @@
 // import React, { useContext } from 'react';
 // import { useParams } from 'react-router-dom';
-// import { CartContext } from './CartContext';
+import { CartContext } from './CartContext';
+import { useContext } from 'react';
 
 // const ProductDetail = () => {
 //   const { id } = useParams();
@@ -116,40 +117,57 @@
 import React from 'react';
 import { useLocation, Link } from 'react-router-dom';
 
-const ProductDetail = () => {
+const ProductDetailSingle = () => {
   const location = useLocation();
   const { product } = location?.state;
-  console.log(product)
+  
+  const { addToCart } = useContext(CartContext);
+
+  const handleAddToCart = () => {
+    addToCart(product);
+  };
 
   return (
-    <div className="mt-20 p-5 flex flex-col items-center min-h-screen bg-blue-500 text-[white]">
-      <h1 className="text-2xl font-bold text-center">{product.name} - Related Products</h1>
-      <section className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 mt-5 mt-[174px]">
-        {product?.relatedProducts?.map((relatedProduct) => (
-          <Link to={`/productdetails/${relatedProduct.id}`} key={relatedProduct.id} state={{ product: relatedProduct }}>
+    <div className="mt-20 p-5 flex flex-col items-center min-h-screen bg-blue-500">
+      <h1 className="text-2xl font-bold text-center">{product.name}</h1>
+      <section className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 mt-5">
+        
+          
             <div
               className="flex flex-col items-center p-6 bg-white border border-gray-200 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300"
               style={{ width: '350px', height: '350px' }}
             >
               <img
-                src={relatedProduct.imageUrl}
-                alt={relatedProduct.name}
+                src={product.imageUrl}
+                alt={product.name}
+
                 className="h-48 w-48 mb-4"
               />
-              <h2 className="text-blue-600 text-lg text-center">{relatedProduct.name}</h2>
+              <h2 className="text-blue-600 text-lg text-center">{product.name} </h2>
+              <h2 className="text-blue-600 text-lg text-center">{product.description} </h2>
+              <h2 className="text-blue-600 text-lg text-center">{product.price} </h2>
+
             </div>
 
-          </Link>
-        ))}
+          
+    
       </section>
-      <img
-                src={product?.imageUrl}
-                alt={product?.name}
-                className="h-48 w-48 mb-4"
-              />
+              <button  style={{
+                backgroundColor: '#533567',
+                color: 'white',
+                fontWeight: 'bold',
+                padding: '10px 20px',
+                borderRadius: '5px',
+                cursor: 'pointer',
+              }}
+              
+              onClick={()=>handleAddToCart(product)}
+              
+              >Add to cart</button>
+      
     </div>
   );
 };
 
-export default ProductDetail;
+export default ProductDetailSingle;
 
