@@ -35,10 +35,10 @@ export default TermsAndConditions;
 
 const termsAndConditionsContent = [
   {
-    sectionTitle: 'Welcome to Hewlett Hub solutions LLC!',
+    sectionTitle: 'Welcome to Hewlett Hub solutions!',
     content: [
-      'These terms and conditions outline the rules and regulations for the use of Hewlett Hub solutions LLC’ Website, located at https://hewletthubsolutions.com/.',
-      'By accessing this website we assume you accept these terms and conditions. Do not continue to use Hewlett Hub solutions LLC if you do not agree to take all of the terms and conditions stated on this page.',
+      'These terms and conditions outline the rules and regulations for the use of Hewlett Hub solutions ’ Website, located at https://hewletthubsolutions.com/.',
+      'By accessing this website we assume you accept these terms and conditions. Do not continue to use Hewlett Hub solutions if you do not agree to take all of the terms and conditions stated on this page.',
     ],
   },
   {
@@ -50,33 +50,33 @@ const termsAndConditionsContent = [
   {
     sectionTitle: 'Cookies',
     content: [
-      'We employ the use of cookies. By accessing Hewlett Hub solutions LLC, you agreed to use cookies in agreement with the Hewlett Hub solutions LLC’s Privacy Policy.',
+      'We employ the use of cookies. By accessing Hewlett Hub solutions, you agreed to use cookies in agreement with the Hewlett Hub solutions Privacy Policy.',
       'Most interactive websites use cookies to let us retrieve the user’s details for each visit. Cookies are used by our website to enable the functionality of certain areas to make it easier for people visiting our website. Some of our affiliate/advertising partners may also use cookies.',
     ],
   },
   {
     sectionTitle: 'License',
     content: [
-      'Unless otherwise stated, Hewlett Hub solutions LLC and/or its licensors own the intellectual property rights for all material on Hewlett Hub solutions LLC. All intellectual property rights are reserved. You may access this from Hewlett Hub solutions LLC for your own personal use subjected to restrictions set in these terms and conditions.',
+      'Unless otherwise stated, Hewlett Hub solutions and/or its licensors own the intellectual property rights for all material on Hewlett Hub solutions LLC. All intellectual property rights are reserved. You may access this from Hewlett Hub solutions LLC for your own personal use subjected to restrictions set in these terms and conditions.',
       'You must not:',
-      'Republish material from Hewlett Hub solutions LLC',
-      'Sell, rent or sub-license material from Hewlett Hub solutions LLC',
-      'Reproduce, duplicate or copy material from Hewlett Hub solutions LLC',
-      'Redistribute content from Hewlett Hub solutions LLC',
+      'Republish material from Hewlett Hub solutions ',
+      'Sell, rent or sub-license material from Hewlett Hub solutions ',
+      'Reproduce, duplicate or copy material from Hewlett Hub solutions ',
+      'Redistribute content from Hewlett Hub solutions ',
       'This Agreement shall begin on the date hereof. Our Terms and Conditions were created with the help of the Free Terms and Conditions Generator.',
     ],
   },
   {
     sectionTitle: 'Comments',
     content: [
-      'Parts of this website offer an opportunity for users to post and exchange opinions and information in certain areas of the website. Hewlett Hub solutions LLC does not filter, edit, publish or review Comments prior to their presence on the website. Comments do not reflect the views and opinions of Hewlett Hub solutions LLC, its agents and/or affiliates. Comments reflect the views and opinions of the person who post their views and opinions. To the extent permitted by applicable laws, Hewlett Hub solutions LLC shall not be liable for the Comments or for any liability, damages or expenses caused and/or suffered as a result of any use of and/or posting of and/or appearance of the Comments on this website.',
-      'Hewlett Hub solutions LLC reserves the right to monitor all Comments and to remove any Comments which can be considered inappropriate, offensive or causes breach of these Terms and Conditions.',
+      'Parts of this website offer an opportunity for users to post and exchange opinions and information in certain areas of the website. Hewlett Hub solutions LLC does not filter, edit, publish or review Comments prior to their presence on the website. Comments do not reflect the views and opinions of Hewlett Hub solutions , its agents and/or affiliates. Comments reflect the views and opinions of the person who post their views and opinions. To the extent permitted by applicable laws, Hewlett Hub solutions LLC shall not be liable for the Comments or for any liability, damages or expenses caused and/or suffered as a result of any use of and/or posting of and/or appearance of the Comments on this website.',
+      'Hewlett Hub solutions reserves the right to monitor all Comments and to remove any Comments which can be considered inappropriate, offensive or causes breach of these Terms and Conditions.',
       'You warrant and represent that:',
       'You are entitled to post the Comments on our website and have all necessary licenses and consents to do so;',
       'The Comments do not invade any intellectual property right, including without limitation copyright, patent or trademark of any third party;',
       'The Comments do not contain any defamatory, libelous, offensive, indecent or otherwise unlawful material which is an invasion of privacy',
       'The Comments will not be used to solicit or promote business or custom or present commercial activities or unlawful activity.',
-      'You hereby grant Hewlett Hub solutions LLC a non-exclusive license to use, reproduce, edit and authorize others to use, reproduce and edit any of your Comments in any and all forms, formats or media.',
+      'You hereby grant Hewlett Hub solutions a non-exclusive license to use, reproduce, edit and authorize others to use, reproduce and edit any of your Comments in any and all forms, formats or media.',
     ],
   },
   {
@@ -112,7 +112,7 @@ const termsAndConditionsContent = [
           'By use of our corporate name; or',
           'By use of the uniform resource locator being linked to; or',
           'By use of any other description of our Website being linked to that makes sense within the context and format of content on the linking party’s site.',
-          'No use of Hewlett Hub solutions LLC’s logo or other artwork will be allowed for linking absent a trademark license agreement.',
+          'No use of Hewlett Hub solutions logo or other artwork will be allowed for linking absent a trademark license agreement.',
         ],
       },
     ],

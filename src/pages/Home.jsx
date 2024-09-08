@@ -74,12 +74,13 @@ import HelpPage from '../sections/HelpPage';
 import BuildIcon from '@mui/icons-material/Build';
 import AccessTimeIcon from '@mui/icons-material/AccessTime';
 import CheckCircleOutlineIcon from '@mui/icons-material/CheckCircleOutline';
+import exampleImage from '../assets/mic.png';
 
 const Slider = () => {
   return (
     <>
-      <div className="min-h-screen flex items-center justify-center">
-        <header className="bg-blue-500 h-[630px] relative flex items-center">
+      <div className="min-h-screen flex items-center justify-center xl:mt-[-153px] 2xl:mt-[-153px]">
+        <header className="bg-blue-500 h-[600px] xl:w-[1836px] 2xl:w-[1836px] relative flex items-center">
           <div className="container mx-auto flex flex-col-reverse lg:flex-row items-center">
             <div className="text-white lg:w-1/2 p-8 ml-[203px]">
               <h1 className="text-4xl lg:text-5xl font-semibold mb-4">
@@ -111,9 +112,9 @@ const Slider = () => {
             </div>
             <div className="lg:w-1/2">
               <img
-                src="https://img.freepik.com/free-photo/smiling-young-customer-service-girl-with-headset-her-workplace_231208-9605.jpg"
+                src={exampleImage}
                 alt="Support Staff"
-                className="max-w-full h-auto mt-[112px]"
+                className="max-w-full w-[370] h-[460px] mt-[90px] object-cover"
               />
             </div>
           </div>

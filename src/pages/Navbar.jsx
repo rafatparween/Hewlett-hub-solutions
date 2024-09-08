@@ -12,13 +12,13 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-[white] fixed top-0 left-0 right-0 z-50 h-[70px] mt-[30px]">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <nav className="bg-[white] z-50">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-[20px]">
         <div className="flex justify-between h-16">
-          <div className="flex items-center ml-[-241px]">
+          <div className="flex items-center xl:ml-[-188px] 2xl:ml-[-188px]">
             <img className='h-[76px] w-[83px]' src='https://thumbs.dreamstime.com/b/hhs-letter-logo-design-black-background-creative-initials-concept-247683198.jpg'/>
             
-            <Link to="/" className="text-2xl text-[18px] text-[#0C71C3]">
+            <Link to="/" className="text-2xl text-[32px] text-[#0C71C3]">
             Hewlett Hub solutions 
             </Link>
           </div>
@@ -26,13 +26,13 @@ const Navbar = () => {
             <Link
               to="/"
               className="text-[black] hover:text-[#1e40af] px-3 py-2 rounded-md text-sm font-medium
-              hover:border border-[black] "
+              hover:border border-[black] text-[22px] "
             >
               Home
             </Link>
             <Link
               to="/about"
-              className=" hover:border border-[#1e40af] hover:text-[blue] px-3 py-2 rounded-md text-sm font-medium text-[black]"
+              className=" hover:border border-[blue] hover:text-[blue] px-3 py-2 rounded-md text-sm font-medium text-[black] text-[22px]"
             >
               About
             </Link>
@@ -44,19 +44,19 @@ const Navbar = () => {
             </Link> */}
             <Link
               to="/product"
-              className=" hover:border border-[#1e40af] hover:text-[#0f766e] px-3 py-2 rounded-md text-sm font-medium text-[black]"
+              className=" hover:border border-[blue] hover:text-[blue] px-3 py-2 rounded-md text-sm font-medium text-[black] text-[22px]"
             >
               Services
             </Link>
             <Link
               to="/contact"
-              className=" hover:border border-[#0f766e] hover:text-[#1e40af] px-3 py-2 rounded-md text-sm font-medium text-[black]"
+              className=" hover:border border-[blue] hover:text-[blue] px-3 py-2 rounded-md text-sm font-medium text-[black] text-[22px]"
             >
               Contact
             </Link>
             <Link
               to="/membership"
-              className=" hover:border border-[#1e40af] hover:text-[#0f766e] px-3 py-2 rounded-md text-sm font-medium text-[black]"
+              className=" hover:border border-[blue] hover:text-[blue] px-3 py-2 rounded-md text-sm font-medium text-[black] text-[22px]"
             >
               Membership
             </Link>
@@ -64,7 +64,7 @@ const Navbar = () => {
             <div className="relative">
               <Link
                 to="/cart"
-                className=" hover:border border-[#0f766e] hover:text-[#1e40af] px-3 py-2 rounded-md text-sm font-medium flex items-center relative text-[blacj]"
+                className=" hover:border border-[#0f766e] hover:text-[#1e40af] px-3 py-2 rounded-md text-sm font-medium flex items-center relative text-[blacj] text-[22px]"
               >
                 <LocalMallIcon sx={{ fontSize: '2rem' }} />
                 {cartItems.length > 0 && (
