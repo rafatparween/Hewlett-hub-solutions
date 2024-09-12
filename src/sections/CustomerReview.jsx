@@ -25,7 +25,7 @@ const CustomerReview = () => {
   return (
     <section className="bg-teal-50 py-8">
       <div className="max-w-screen-xl mx-auto px-4">
-        <h2 className="text-3xl font-bold text-[#0f766e] text-center mb-8">
+        <h2 className="text-3xl font-bold text-[#0f766e] text-center mb-8 font-sans">
           Customer Reviews
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -33,8 +33,8 @@ const CustomerReview = () => {
             <div key={index} className="bg-white p-6 rounded-lg shadow-lg">
               <p className="text-gray-600 italic mb-4">"{review.content}"</p>
               <div className="text-right">
-                <p className="text-[#0f766e] font-semibold">{review.name}</p>
-                <p className="text-gray-500 text-sm">{review.date}</p>
+                <p className="text-[#0f766e] font-semibold font-sans">{review.name}</p>
+                <p className="text-gray-500 text-sm font-sans">{review.date}</p>
               </div>
             </div>
           ))}

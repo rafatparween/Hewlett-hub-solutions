@@ -57,7 +57,7 @@ const Slider = () => {
       <div className="container mx-auto flex flex-col-reverse lg:flex-row items-center">
         <div className="text-white lg:w-1/2 p-8 ml-[203px]">
           <h1 className="text-4xl lg:text-5xl font-semibold mb-4">
-            In-Home & Online Support for your <span className="font-bold">Streaming Device</span>
+            Get Online Support for your <span className="font-bold">Streaming Device</span>
           </h1>
           <p className="mb-6">
             The best tech solution, ready to help you - anytime, anywhere.

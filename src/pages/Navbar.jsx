@@ -16,23 +16,23 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-[20px]">
         <div className="flex justify-between h-16">
           <div className="flex items-center xl:ml-[-188px] 2xl:ml-[-188px]">
-            <img className='h-[76px] w-[83px]' src='https://thumbs.dreamstime.com/b/hhs-letter-logo-design-black-background-creative-initials-concept-247683198.jpg'/>
+            {/* <img className='h-[76px] w-[83px]' src='https://thumbs.dreamstime.com/b/hhs-letter-logo-design-black-background-creative-initials-concept-247683198.jpg'/> */}
             
-            <Link to="/" className="text-2xl text-[32px] text-[#0C71C3]">
+            <Link to="/" className="text-2xl text-[32px] text-[#0C71C3] xl:ml-[-60px] 2xl:ml-[-60px] font-sans">
             Hewlett Hub solutions 
             </Link>
           </div>
           <div className="hidden lg:flex lg:items-center lg:space-x-8">
             <Link
               to="/"
-              className="text-[black] hover:text-[#1e40af] px-3 py-2 rounded-md text-sm font-medium
-              hover:border border-[black] text-[22px] "
+              className="text-[black] hover:text-[blue] px-3 py-2 rounded-md 
+              hover:border border-[black] text-[22px] font-sans "
             >
               Home
             </Link>
             <Link
               to="/about"
-              className=" hover:border border-[blue] hover:text-[blue] px-3 py-2 rounded-md text-sm font-medium text-[black] text-[22px]"
+              className=" hover:border border-[blue] hover:text-[blue] px-3 py-2 rounded-md  text-[black] text-[22px] font-sans"
             >
               About
             </Link>
@@ -44,19 +44,19 @@ const Navbar = () => {
             </Link> */}
             <Link
               to="/product"
-              className=" hover:border border-[blue] hover:text-[blue] px-3 py-2 rounded-md text-sm font-medium text-[black] text-[22px]"
+              className=" hover:border border-[blue] hover:text-[blue] px-3 py-2 rounded-md text-[black] text-[22px] font-sans"
             >
               Services
             </Link>
             <Link
               to="/contact"
-              className=" hover:border border-[blue] hover:text-[blue] px-3 py-2 rounded-md text-sm font-medium text-[black] text-[22px]"
+              className=" hover:border border-[blue] hover:text-[blue] px-3 py-2 rounded-md text-[black] text-[22px] font-sans"
             >
               Contact
             </Link>
             <Link
               to="/membership"
-              className=" hover:border border-[blue] hover:text-[blue] px-3 py-2 rounded-md text-sm font-medium text-[black] text-[22px]"
+              className=" hover:border border-[blue] hover:text-[blue] px-3 py-2 rounded-md text-[black] text-[22px] font-sans"
             >
               Membership
             </Link>
@@ -64,7 +64,7 @@ const Navbar = () => {
             <div className="relative">
               <Link
                 to="/cart"
-                className=" hover:border border-[#0f766e] hover:text-[#1e40af] px-3 py-2 rounded-md text-sm font-medium flex items-center relative text-[blacj] text-[22px]"
+                className=" hover:border border-[#0f766e] hover:text-[#1e40af] px-3 py-2 rounded-md flex items-center relative text-[blacj] text-[22px] font-sans"
               >
                 <LocalMallIcon sx={{ fontSize: '2rem' }} />
                 {cartItems.length > 0 && (
@@ -87,7 +87,7 @@ const Navbar = () => {
               <svg
                 className={`${isMobileMenuOpen ? 'hidden' : 'block'} h-6 w-6`}
                 xmlns="http://www.w3.org/2000/svg"
-                fill="none"
+                fill="red"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
                 aria-hidden="true"
