@@ -1,55 +1,58 @@
 import React from 'react';
-import ShieldIcon from '@mui/icons-material/Shield';
 
 const PeaceOfMindGuarantee = () => {
+  const guarantees = [
+    {
+      title: 'Thorough Testing',
+      description: 'We carefully check every product to ensure it works perfectly. You can be confident that everything has been tested to meet our high quality standards.',
+      backgroundColor: 'bg-blue-100',
+      textColor: 'text-blue-800',
+    },
+    {
+      title: 'Strong Warranty',
+      description: 'We offer a solid warranty on all our products. If anything goes wrong, our support team is here to help and fix the issue quickly.',
+      backgroundColor: 'bg-green-100',
+      textColor: 'text-green-800',
+    },
+    {
+      title: '100% Satisfaction',
+      description: 'We want you to be completely happy with your purchase. If you’re not satisfied, we’ll make it right with easy returns or exchanges.',
+      backgroundColor: 'bg-yellow-100',
+      textColor: 'text-yellow-800',
+    },
+  ];
+
   return (
-    <main className="bg-teal-50 flex items-center justify-center py-10">
-      <div className="bg-white p-8 rounded-lg w-11/12 max-w-6xl mx-auto flex flex-col md:flex-row items-center shadow-xl">
-        <img
-          src="https://media.licdn.com/dms/image/C5612AQHeqVyqoS54yQ/article-cover_image-shrink_720_1280/0/1593932828952?e=1724284800&v=beta&t=wkWLfULUr84JhYAx_BH5KAfeKHFvfM_2SIi4KBamMoc"
-          alt="Peace of Mind"
-          className="rounded-lg shadow-xl mb-6 md:mb-0 md:mr-8 w-full md:w-1/2 h-[85vh] object-cover"
-        />
-        <section className="text-left text-gray-700 w-full md:w-1/2">
-          <h2 className="text-4xl font-bold mb-4 text-center text-[#0f766e] border-b-2 border-[#0f766e] ">
+    <main className="bg-gray-50 py-12">
+      <div className="bg-white p-8 rounded-lg w-11/12 max-w-6xl mx-auto flex flex-col md:flex-row items-center shadow-lg border-t-4 border-blue-500">
+        <section className="text-left text-gray-800 w-full md:w-1/2 md:pr-8">
+          <h2 className="text-4xl font-extrabold mb-6 text-blue-700 border-b-4 border-blue-500 pb-3">
             Peace of Mind Guarantee
           </h2>
-          <p className="text-lg mb-4">
-          Hewlett Hub solutions, we ensure you feel confident and secure
-            in your purchase. Our Peace of Mind Guarantee covers comprehensive
-            testing, warranty coverage, and satisfaction guaranteed.
+          <p className="text-lg mb-8 leading-relaxed">
+          We test each product carefully to make sure it works perfectly and meets our high standards. You can trust that every item has been checked for top performance and quality.
           </p>
-          <div className="flex items-center mb-4">
-            <ShieldIcon style={{ color: '#0f766e' }} fontSize="large" />
-            <h3 className="text-xl font-bold text-[#0f766e] ml-2">
-              Comprehensive Testing
-            </h3>
+          <div className="space-y-6">
+            {guarantees.map((item, index) => (
+              <div
+                key={index}
+                className={`p-6 rounded-lg shadow-md ${item.backgroundColor}`}
+              >
+                <h3 className={`text-2xl font-semibold ${item.textColor}`}>
+                  {item.title}
+                </h3>
+                <p className={`text-md mt-4 ${item.textColor}`}>
+                  {item.description}
+                </p>
+              </div>
+            ))}
           </div>
-          <p className="text-lg mb-4">
-            Each printer undergoes rigorous testing and quality checks to ensure
-            top performance and reliability.
-          </p>
-          <div className="flex items-center mb-4">
-            <ShieldIcon style={{ color: '#0f766e' }} fontSize="large" />
-            <h3 className="text-xl font-bold text-[#0f766e] ml-2">
-              Warranty Coverage
-            </h3>
-          </div>
-          <p className="text-lg mb-4">
-            We offer a robust warranty. Our support team is here to help with
-            any issues you may encounter.
-          </p>
-          <div className="flex items-center mb-4">
-            <ShieldIcon style={{ color: '#0f766e' }} fontSize="large" />
-            <h3 className="text-xl font-bold text-[#0f766e] ml-2">
-              Satisfaction Guaranteed
-            </h3>
-          </div>
-          <p className="text-lg mb-4">
-            Your satisfaction is our priority. Enjoy hassle-free returns and
-            exchanges if you're not completely satisfied.
-          </p>
         </section>
+        <img
+          src="https://mysleepyhead.com/media/catalog/product/4/t/4th_aug_2nd_half1045_blue.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=&width="
+          alt="Peace of Mind"
+          className="rounded-lg shadow-lg mt-6 md:mt-0 md:ml-8 w-full md:w-1/2 h-[70vh] object-cover"
+        />
       </div>
     </main>
   );

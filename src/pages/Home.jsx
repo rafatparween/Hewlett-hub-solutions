@@ -231,6 +231,7 @@ import ComputerIcon from '@mui/icons-material/Computer';
 import PrintIcon from '@mui/icons-material/Print';
 import AudiotrackIcon from '@mui/icons-material/Audiotrack';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown'; 
+import TabletIcon from '@mui/icons-material/Tablet';
 import exampleImage from '../assets/mic.png';
 import PopularServices from './Popularservice';
 
@@ -259,7 +260,7 @@ const Slider = () => {
         <header className="bg-blue-500 h-[600px] xl:w-[1836px] 2xl:w-[1836px] relative flex items-center">
           <div className="container mx-auto flex flex-col-reverse lg:flex-row items-center">
             <div className="text-white lg:w-1/2 p-8 ml-[203px]">
-              <h1 className="text-4xl lg:text-5xl font-semibold mb-4 font-sans">
+              <h1 className="text-[44px] lg:text-5xl font-semibold mb-4 font-sans">
                 Get Online Support for your{' '}
                 <span className="font-bold font-sans">Streaming Device</span>
               </h1>
@@ -268,42 +269,51 @@ const Slider = () => {
               </p>
               <div className="relative">
                 <button
-                  className="bg-white text-blue-500 rounded-lg shadow-lg w-full lg:w-2/3 p-4 flex justify-between items-center font-sans"
+                  className="bg-white text-blue-500 rounded-lg shadow-lg w-full lg:w-2/3 p-4 flex justify-between items-center font-sans xl:w-[616px] 2xl:w-[616px] text-[24px]"
                   onClick={toggleDropdown} // Toggle the dropdown
                 >
                   I need help with...
                   <ArrowDropDownIcon className={`transition-transform ${dropdownOpen ? 'rotate-180' : ''}`} />
                 </button>
                 {dropdownOpen && (
-                  <ul className="absolute left-0 right-0 bg-white shadow-md mt-2 z-50 rounded-md">
+                  <ul className="absolute left-0 right-0 bg-white shadow-md mt-2 z-50 rounded-md text-[#384c5e] text-[20px] font-sans">
                     <li
                       className="p-2 hover:bg-blue-100 cursor-pointer flex items-center"
-                      onClick={() => handleNavigation('/mobile')}
+                      onClick={() => handleNavigation('/printers')}
                     >
-                      <MobileFriendlyIcon className="mr-2" />
-                      Mobile
+                      <PrintIcon className="mr-2" />
+                      Printer
                     </li>
                     <li
                       className="p-2 hover:bg-blue-100 cursor-pointer flex items-center"
-                      onClick={() => handleNavigation('/wifi')}
-                    >
-                      <WifiIcon className="mr-2" />
-                      WiFi
-                    </li>
-                    <li
-                      className="p-2 hover:bg-blue-100 cursor-pointer flex items-center"
-                      onClick={() => handleNavigation('/computer')}
+                      onClick={() => handleNavigation('/computers')}
                     >
                       <ComputerIcon className="mr-2" />
                       Computer
                     </li>
                     <li
                       className="p-2 hover:bg-blue-100 cursor-pointer flex items-center"
-                      onClick={() => handleNavigation('/printer')}
+                      onClick={() => handleNavigation('/Tabs')}
                     >
-                      <PrintIcon className="mr-2" />
-                      Printer
+                      <TabletIcon className="mr-2" />
+                      Tab
                     </li>
+                    <li
+                      className="p-2 hover:bg-blue-100 cursor-pointer flex items-center"
+                      onClick={() => handleNavigation('/wifis')}
+                    >
+                      <WifiIcon className="mr-2" />
+                      WiFi & Network
+                    </li>
+                    <li
+                      className="p-2 hover:bg-blue-100 cursor-pointer flex items-center h-[64px] w-[616px]"
+                      onClick={() => handleNavigation('/mobiles')}
+                    >
+                      <MobileFriendlyIcon className="mr-2" />
+                      Mobile
+                    </li>
+                    
+                    
                     <li
                       className="p-2 hover:bg-blue-100 cursor-pointer flex items-center"
                       onClick={() => handleNavigation('/audio-video')}

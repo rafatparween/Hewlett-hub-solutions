@@ -19,12 +19,14 @@ import PrinterProductList from './pages/product/ProductsListing';
 import ProductDetail from './pages/product/ProductDetail';
 import Cart from './pages/product/Cart';
 import CartProvider from './pages/product/CartContext';
-import Slider from './components/Slider';
-import Testimonials from './components/Testimonials';
-import Technicians from './components/Technicians';
-import Peace from './components/Peace';
-import HelpPage from './sections/HelpPage'
 import ProductDetailSingle from './pages/product/productDetails';
+import PopularServices from './pages/Popularservice';
+import Printer from './pages/Printer';
+import Mobile from './pages/Mobile';
+import Audio from './pages/Audio';
+import Tab from './pages/Tab';
+import Bestwifi from './pages/Bestwifi';
+import Bestcomputer from './pages/Bestcomputer';
 
 const App = () => {
   return (
@@ -33,11 +35,6 @@ const App = () => {
     <Router>
       <CartProvider>
         <Navbar />
-        {/* <Slider/>
-        <Peace/>
-        <Testimonials/>
-        <Technicians/>
-        <HelpPage/> */}
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
@@ -55,6 +52,15 @@ const App = () => {
           <Route path="/product/:id" element={<ProductDetail />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/cart" element={<Cart />} />
+
+          {/* Popular services */}
+          <Route path="/" element={<PopularServices />} />
+          <Route path="/service/Printer" element={<Printer />} />
+          <Route path="/service/Tab" element={<Tab />} />
+          <Route path="/service/Audio" element={<Audio />} />
+          <Route path="/service/Mobile" element={<Mobile />} />
+          <Route path="/service/Bestwifi" element={<Bestwifi />} />
+          <Route path="/service/Bestcomputer" element={<Bestcomputer />} />
 
           {/* Footer Sections */}
           <Route path="/disclaimer" element={<Disclaimer />} />
