@@ -1,7 +1,7 @@
 import React from "react";
 import Testimonials from "../components/Testimonials";
 
-const Sprinters = () => {
+const Stab = () => {
   return (
     <>
       <div className="bg-gray-50 min-h-screen">
@@ -29,7 +29,7 @@ const Sprinters = () => {
               <h2 className="text-[24px] font-sans text-[#263746] font-semibold mb-6">Installation & Setup</h2>
               <div className="p-4 bg-white rounded-lg shadow-md w-[310px] h-[184px] flex flex-col items-center justify-center">
                 <img
-                  src="https://as2.ftcdn.net/v2/jpg/01/23/18/75/1000_F_123187598_IU3k5fczLpr5qtY8ejXig7AYyMSLZe0h.jpg"
+                  src="https://as2.ftcdn.net/v2/jpg/01/69/38/31/1000_F_169383142_KUf9w8PXabqYSYIRrbyr5WNTJ9A9UoZe.jpg"
                   alt="WiFi Setup"
                   className="w-[70px] h-[70px] mb-2"
                 />
@@ -43,7 +43,7 @@ const Sprinters = () => {
             {/* Right Section with Images */}
             <div className="flex justify-center">
               <img
-                src="https://services.hummingbirdnetworks.com/hs-fs/hubfs/social-suggested-images/wireless-router.jpg?width=1200&height=800&name=wireless-router.jpg"
+                src="https://techdroy.com/wp-content/uploads/2020/09/apple_new-ipad-air_ipad-lineup_09152020.jpg"
                 alt="Router"
                 className="w-100 h-auto mt-[-211px] "
               />
@@ -59,7 +59,7 @@ const Sprinters = () => {
               {/* First Box */}
               <div className="p-4 bg-white rounded-lg shadow-md w-[310px] h-[184px] flex flex-col items-center justify-center">
                 <img
-                  src="https://c8.alamy.com/comp/E70M0Y/wifi-symbol-E70M0Y.jpg"
+                  src="https://www.creativefabrica.com/wp-content/uploads/2019/06/Tab-icon-by-ahlangraphic-580x386.jpg"
                   alt="WiFi Setup"
                   className="w-[100px] h-[100px] mb-2"
                 />
@@ -72,7 +72,7 @@ const Sprinters = () => {
               {/* Second Box */}
               <div className="p-4 bg-white rounded-lg shadow-md w-[310px] h-[184px] flex flex-col items-center justify-center">
                 <img
-                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5JH5ZsNAmndaLJY_rWPIQRgiIkZL4MSGk7w&s"
+                  src="https://www.creativefabrica.com/wp-content/uploads/2018/12/Folder-by-wirawizinda097-6-580x386.jpg"
                   alt="Example Alt Text"
                   className="w-[100px] h-[100px] mb-2"
                 />
@@ -105,7 +105,7 @@ const Sprinters = () => {
             </div>
             <div className="md:w-1/2 p-4 flex items-center justify-center">
               <img
-                src="https://img.freepik.com/free-photo/young-beautiful-couple-posing-smiling-having-fun-blue-wall-man-wearing-rain-coat_176420-11822.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1725840000&semt=ais_hybrid"
+                src="https://m.media-amazon.com/images/I/71x+1WgPS9L._AC_UF1000,1000_QL80_.jpg"
                 alt="Refurbished Printer"
                 className="rounded-lg shadow-xl h-full object-cover"
               />
@@ -139,4 +139,4 @@ const Sprinters = () => {
   );
 };
 
-export default Sprinters;
+export default Stab;

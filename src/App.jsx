@@ -28,6 +28,11 @@ import Tab from './pages/Tab';
 import Bestwifi from './pages/Bestwifi';
 import Bestcomputer from './pages/Bestcomputer';
 import Sprinters from './pages/Sprinters';
+import Smobile from './pages/Smobile';
+import Stab from './pages/Stab';
+import Swifi from './pages/Swifi';
+import Saudio from './pages/Saudio';
+import Scomputer from './pages/Scomputer';
 
 const App = () => {
   return (
@@ -64,6 +69,11 @@ const App = () => {
           <Route path="/service/Bestcomputer" element={<Bestcomputer />} />
           {/* Slider Dropdown */}
           <Route path="/Sprinters" element={<Sprinters />} />
+          <Route path="/Swifi" element={<Swifi />} />
+          <Route path="/Stab" element={<Stab />} />
+          <Route path="/Smobile" element={<Smobile />} />
+          <Route path="/Scomputer" element={<Scomputer />} />
+          <Route path="/Saudio" element={<Saudio />} />
           
 
 

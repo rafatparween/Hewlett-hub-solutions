@@ -1,7 +1,7 @@
 import React from "react";
 import Testimonials from "../components/Testimonials";
 
-const Sprinters = () => {
+const Scomputer = () => {
   return (
     <>
       <div className="bg-gray-50 min-h-screen">
@@ -139,4 +139,4 @@ const Sprinters = () => {
   );
 };
 
-export default Sprinters;
+export default Scomputer;

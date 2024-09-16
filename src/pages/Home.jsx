@@ -286,28 +286,28 @@ const Slider = () => {
                     </li>
                     <li
                       className="p-2 hover:bg-blue-100 cursor-pointer flex items-center"
-                      onClick={() => handleNavigation('/computers')}
+                      onClick={() => handleNavigation('/Scomputer')}
                     >
                       <ComputerIcon className="mr-2" />
                       Computer
                     </li>
                     <li
                       className="p-2 hover:bg-blue-100 cursor-pointer flex items-center"
-                      onClick={() => handleNavigation('/Tabs')}
+                      onClick={() => handleNavigation('/Stab')}
                     >
                       <TabletIcon className="mr-2" />
                       Tab
                     </li>
                     <li
                       className="p-2 hover:bg-blue-100 cursor-pointer flex items-center"
-                      onClick={() => handleNavigation('/wifis')}
+                      onClick={() => handleNavigation('/Swifi')}
                     >
                       <WifiIcon className="mr-2" />
                       WiFi & Network
                     </li>
                     <li
                       className="p-2 hover:bg-blue-100 cursor-pointer flex items-center h-[64px] w-[616px]"
-                      onClick={() => handleNavigation('/mobiles')}
+                      onClick={() => handleNavigation('/Smobile')}
                     >
                       <MobileFriendlyIcon className="mr-2" />
                       Mobile
@@ -316,7 +316,7 @@ const Slider = () => {
                     
                     <li
                       className="p-2 hover:bg-blue-100 cursor-pointer flex items-center"
-                      onClick={() => handleNavigation('/audio-video')}
+                      onClick={() => handleNavigation('/Saudio')}
                     >
                       <AudiotrackIcon className="mr-2" />
                       Audio & Video
