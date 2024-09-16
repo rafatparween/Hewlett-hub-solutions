@@ -27,6 +27,7 @@ import Audio from './pages/Audio';
 import Tab from './pages/Tab';
 import Bestwifi from './pages/Bestwifi';
 import Bestcomputer from './pages/Bestcomputer';
+import Sprinters from './pages/Sprinters';
 
 const App = () => {
   return (
@@ -61,6 +62,10 @@ const App = () => {
           <Route path="/service/Mobile" element={<Mobile />} />
           <Route path="/service/Bestwifi" element={<Bestwifi />} />
           <Route path="/service/Bestcomputer" element={<Bestcomputer />} />
+          {/* Slider Dropdown */}
+          <Route path="/Sprinters" element={<Sprinters />} />
+          
+
 
           {/* Footer Sections */}
           <Route path="/disclaimer" element={<Disclaimer />} />

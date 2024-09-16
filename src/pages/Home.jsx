@@ -279,7 +279,7 @@ const Slider = () => {
                   <ul className="absolute left-0 right-0 bg-white shadow-md mt-2 z-50 rounded-md text-[#384c5e] text-[20px] font-sans">
                     <li
                       className="p-2 hover:bg-blue-100 cursor-pointer flex items-center"
-                      onClick={() => handleNavigation('/printers')}
+                      onClick={() => handleNavigation('/Sprinters')}
                     >
                       <PrintIcon className="mr-2" />
                       Printer
