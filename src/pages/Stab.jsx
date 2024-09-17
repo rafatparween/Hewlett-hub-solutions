@@ -105,7 +105,7 @@ const Stab = () => {
             </div>
             <div className="md:w-1/2 p-4 flex items-center justify-center">
               <img
-                src="https://m.media-amazon.com/images/I/71x+1WgPS9L._AC_UF1000,1000_QL80_.jpg"
+                src="https://t4.ftcdn.net/jpg/04/95/18/61/360_F_495186169_wk1KLYw1LAWqtP9WWR1KyHzBOl0FGr16.jpg"
                 alt="Refurbished Printer"
                 className="rounded-lg shadow-xl h-full object-cover"
               />
@@ -119,12 +119,12 @@ const Stab = () => {
           <div className="flex flex-col md:flex-row">
             <div className="md:w-1/2 p-4 flex items-center justify-center">
               <img
-                src="https://a.media-amazon.com/images/S/aplus-media-library-service-media/3264a30b-ea2d-4aac-a8f3-ebeca911b0b7.__CR0,0,970,600_PT0_SX970_V1___.jpg"
+                src="https://m.media-amazon.com/images/I/71x+1WgPS9L._AC_UF1000,1000_QL80_.jpg"
                 alt="Refurbished Printer"
-                className="rounded-lg shadow-xl h-full object-cover"
+                className="rounded-lg shadow-xl h-full object-cover h-[500px] w-[700px]"
               />
             </div>
-            <div className="md:w-1/2 p-4 mt-[76px]">
+            <div className="md:w-1/2 p-4 mt-[181px]">
               <h1 className="text-[30px] font-bold mb-4 font-sans">
                 Ready to book your service?{' '}
               </h1>

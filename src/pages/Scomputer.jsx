@@ -9,7 +9,7 @@ const Scomputer = () => {
         <header className="bg-white py-10">
           <div className="container mx-auto px-4">
             <h1 className="text-[44px] font-sans text-[#263746] font-medium">
-              WiFi & Network
+              Computer
             </h1>
             <div className="flex mt-4">
               <div className="mr-8">
@@ -29,12 +29,12 @@ const Scomputer = () => {
               <h2 className="text-[24px] font-sans text-[#263746] font-semibold mb-6">Installation & Setup</h2>
               <div className="p-4 bg-white rounded-lg shadow-md w-[310px] h-[184px] flex flex-col items-center justify-center">
                 <img
-                  src="https://as2.ftcdn.net/v2/jpg/01/23/18/75/1000_F_123187598_IU3k5fczLpr5qtY8ejXig7AYyMSLZe0h.jpg"
+                  src="https://i.pinimg.com/564x/51/0d/ee/510deea38b7862484a8e26586f362152.jpg"
                   alt="WiFi Setup"
                   className="w-[70px] h-[70px] mb-2"
                 />
                 <p className="text-gray-700 font-sans text-[16px] text-center">
-                  New WiFi Connection Setup
+                  New Computer Connection Setup
                 </p>
               </div>
 
@@ -43,9 +43,9 @@ const Scomputer = () => {
             {/* Right Section with Images */}
             <div className="flex justify-center">
               <img
-                src="https://services.hummingbirdnetworks.com/hs-fs/hubfs/social-suggested-images/wireless-router.jpg?width=1200&height=800&name=wireless-router.jpg"
+                src="https://img.freepik.com/premium-psd/modern-devices-with-smartphone-laptop-computer-tablet-white-mockup_117023-1034.jpg"
                 alt="Router"
-                className="w-100 h-auto mt-[-211px] "
+                className="w-100 h-auto mt-[-52px] "
               />
             </div>
           </section>
@@ -59,12 +59,12 @@ const Scomputer = () => {
               {/* First Box */}
               <div className="p-4 bg-white rounded-lg shadow-md w-[310px] h-[184px] flex flex-col items-center justify-center">
                 <img
-                  src="https://c8.alamy.com/comp/E70M0Y/wifi-symbol-E70M0Y.jpg"
+                  src="https://www.freeiconspng.com/thumbs/pc-icon/pc-icon-12.png"
                   alt="WiFi Setup"
                   className="w-[100px] h-[100px] mb-2"
                 />
                 <p className="text-gray-700 font-sans text-[16px] text-center">
-                  Wifi and Network Connectivity Support
+                  Computer Connectivity Support
 
                 </p>
               </div>
@@ -72,12 +72,12 @@ const Scomputer = () => {
               {/* Second Box */}
               <div className="p-4 bg-white rounded-lg shadow-md w-[310px] h-[184px] flex flex-col items-center justify-center">
                 <img
-                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5JH5ZsNAmndaLJY_rWPIQRgiIkZL4MSGk7w&s"
+                  src="https://as2.ftcdn.net/v2/jpg/02/65/71/25/1000_F_265712572_bL8YoZmUcdj9Pf2dEfMeXSUtvSixKI5m.jpg"
                   alt="Example Alt Text"
                   className="w-[100px] h-[100px] mb-2"
                 />
                 <p className="text-gray-700 font-sans text-[16px] text-center">
-                  Wifi Signal Extension
+                  Computer Extension
                 </p>
               </div>
             </div>
@@ -88,7 +88,7 @@ const Scomputer = () => {
       <div>
         <div className="h-[204px] w-full bg-blue-500 flex flex-col justify-center items-center">
           <h1 className="text-white font-sans text-[56px]">33,601</h1>
-          <h2 className="text-white text-[16px] font-sans">WiFi & Network Services Completed</h2>
+          <h2 className="text-white text-[16px] font-sans">Computer Services Completed</h2>
         </div>
       </div>
       <div className="bg-blue-100 h-[700px] flex items-center justify-center">
@@ -105,7 +105,7 @@ const Scomputer = () => {
             </div>
             <div className="md:w-1/2 p-4 flex items-center justify-center">
               <img
-                src="https://img.freepik.com/free-photo/young-beautiful-couple-posing-smiling-having-fun-blue-wall-man-wearing-rain-coat_176420-11822.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1725840000&semt=ais_hybrid"
+                src="https://img.freepik.com/free-photo/portrait-young-couple-sitting-black-sofa-playing-video-game-with-joystick_23-2148049375.jpg"
                 alt="Refurbished Printer"
                 className="rounded-lg shadow-xl h-full object-cover"
               />
@@ -115,11 +115,11 @@ const Scomputer = () => {
       </div>
       <Testimonials />
       <div className="h-[700px] flex items-center justify-center">
-        <div className="max-w-screen-xl mx-auto w-90 p-8 bg-white shadow-lg  overflow-hidden mt-20">
+        <div className="max-w-screen-xl mx-auto w-90 p-8 bg-white shadow-lg  overflow-hidden mt-20 xl:mt-[-99px] 2xl:mt-[-99px]">
           <div className="flex flex-col md:flex-row">
             <div className="md:w-1/2 p-4 flex items-center justify-center">
               <img
-                src="https://a.media-amazon.com/images/S/aplus-media-library-service-media/3264a30b-ea2d-4aac-a8f3-ebeca911b0b7.__CR0,0,970,600_PT0_SX970_V1___.jpg"
+                src="https://i.ytimg.com/vi/r50ppRn-gZw/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBOm42QlbhH4KOHlVGhtODeyeksZw"
                 alt="Refurbished Printer"
                 className="rounded-lg shadow-xl h-full object-cover"
               />
