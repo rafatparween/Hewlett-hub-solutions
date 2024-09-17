@@ -9,7 +9,7 @@ const Stab = () => {
         <header className="bg-white py-10">
           <div className="container mx-auto px-4">
             <h1 className="text-[44px] font-sans text-[#263746] font-medium">
-              WiFi & Network
+              Tabs
             </h1>
             <div className="flex mt-4">
               <div className="mr-8">
@@ -34,7 +34,7 @@ const Stab = () => {
                   className="w-[70px] h-[70px] mb-2"
                 />
                 <p className="text-gray-700 font-sans text-[16px] text-center">
-                  New WiFi Connection Setup
+                  New Tab Connection Setup
                 </p>
               </div>
 
@@ -64,7 +64,7 @@ const Stab = () => {
                   className="w-[100px] h-[100px] mb-2"
                 />
                 <p className="text-gray-700 font-sans text-[16px] text-center">
-                  Wifi and Network Connectivity Support
+                  Tab Connectivity Support
 
                 </p>
               </div>
@@ -77,7 +77,7 @@ const Stab = () => {
                   className="w-[100px] h-[100px] mb-2"
                 />
                 <p className="text-gray-700 font-sans text-[16px] text-center">
-                  Wifi Signal Extension
+                  Tab Extension
                 </p>
               </div>
             </div>
@@ -88,7 +88,7 @@ const Stab = () => {
       <div>
         <div className="h-[204px] w-full bg-blue-500 flex flex-col justify-center items-center">
           <h1 className="text-white font-sans text-[56px]">33,601</h1>
-          <h2 className="text-white text-[16px] font-sans">WiFi & Network Services Completed</h2>
+          <h2 className="text-white text-[16px] font-sans">Tab Services Completed</h2>
         </div>
       </div>
       <div className="bg-blue-100 h-[700px] flex items-center justify-center">

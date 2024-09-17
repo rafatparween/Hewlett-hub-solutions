@@ -9,7 +9,7 @@ const Smobile = () => {
         <header className="bg-white py-10">
           <div className="container mx-auto px-4">
             <h1 className="text-[44px] font-sans text-[#263746] font-medium">
-              WiFi & Network
+              Mobile
             </h1>
             <div className="flex mt-4">
               <div className="mr-8">
@@ -29,12 +29,12 @@ const Smobile = () => {
               <h2 className="text-[24px] font-sans text-[#263746] font-semibold mb-6">Installation & Setup</h2>
               <div className="p-4 bg-white rounded-lg shadow-md w-[310px] h-[184px] flex flex-col items-center justify-center">
                 <img
-                  src="https://as2.ftcdn.net/v2/jpg/01/23/18/75/1000_F_123187598_IU3k5fczLpr5qtY8ejXig7AYyMSLZe0h.jpg"
+                  src="https://thumbs.dreamstime.com/b/phone-icon-flat-style-vector-illustration-round-blue-back-background-shadow-96385350.jpg"
                   alt="WiFi Setup"
                   className="w-[70px] h-[70px] mb-2"
                 />
                 <p className="text-gray-700 font-sans text-[16px] text-center">
-                  New WiFi Connection Setup
+                  New Mobile Connection Setup
                 </p>
               </div>
 
@@ -43,7 +43,7 @@ const Smobile = () => {
             {/* Right Section with Images */}
             <div className="flex justify-center">
               <img
-                src="https://services.hummingbirdnetworks.com/hs-fs/hubfs/social-suggested-images/wireless-router.jpg?width=1200&height=800&name=wireless-router.jpg"
+                src="https://i.ebayimg.com/images/g/m8MAAOSw4UBk53QX/s-l1200.jpg"
                 alt="Router"
                 className="w-100 h-auto mt-[-211px] "
               />
@@ -51,20 +51,20 @@ const Smobile = () => {
           </section>
 
           {/* Support Section */}
-          <section className="mt-12">
+          <section className="mt-12 mt-[-160px]">
             <h2 className="text-2xl font-semibold mb-6 w-1/2">Support</h2>
 
             {/* Wrapper div to align the boxes in a row */}
-            <div className="flex space-x-4">
+            <div className="flex space-x-4 ">
               {/* First Box */}
               <div className="p-4 bg-white rounded-lg shadow-md w-[310px] h-[184px] flex flex-col items-center justify-center">
                 <img
-                  src="https://c8.alamy.com/comp/E70M0Y/wifi-symbol-E70M0Y.jpg"
+                  src="https://cdn-icons-png.freepik.com/256/11731/11731750.png?semt=ais_hybrid"
                   alt="WiFi Setup"
                   className="w-[100px] h-[100px] mb-2"
                 />
                 <p className="text-gray-700 font-sans text-[16px] text-center">
-                  Wifi and Network Connectivity Support
+                  Mobile Connectivity Support
 
                 </p>
               </div>
@@ -72,12 +72,12 @@ const Smobile = () => {
               {/* Second Box */}
               <div className="p-4 bg-white rounded-lg shadow-md w-[310px] h-[184px] flex flex-col items-center justify-center">
                 <img
-                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5JH5ZsNAmndaLJY_rWPIQRgiIkZL4MSGk7w&s"
+                  src="https://cdn-icons-png.flaticon.com/512/4814/4814326.png"
                   alt="Example Alt Text"
                   className="w-[100px] h-[100px] mb-2"
                 />
                 <p className="text-gray-700 font-sans text-[16px] text-center">
-                  Wifi Signal Extension
+                  Mobile Signal Extension
                 </p>
               </div>
             </div>
@@ -88,7 +88,7 @@ const Smobile = () => {
       <div>
         <div className="h-[204px] w-full bg-blue-500 flex flex-col justify-center items-center">
           <h1 className="text-white font-sans text-[56px]">33,601</h1>
-          <h2 className="text-white text-[16px] font-sans">WiFi & Network Services Completed</h2>
+          <h2 className="text-white text-[16px] font-sans">Mobile Services Completed</h2>
         </div>
       </div>
       <div className="bg-blue-100 h-[700px] flex items-center justify-center">
@@ -105,7 +105,7 @@ const Smobile = () => {
             </div>
             <div className="md:w-1/2 p-4 flex items-center justify-center">
               <img
-                src="https://img.freepik.com/free-photo/young-beautiful-couple-posing-smiling-having-fun-blue-wall-man-wearing-rain-coat_176420-11822.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1725840000&semt=ais_hybrid"
+                src="https://media.istockphoto.com/id/1384830846/photo/worried-two-funny-girls-friends-siblings-enthusiastically-playing-racing-video-games-on.jpg?s=612x612&w=0&k=20&c=2lyKNztnDmlugp6AC08TG6A77-xNyaz2MDFjxWXuptw="
                 alt="Refurbished Printer"
                 className="rounded-lg shadow-xl h-full object-cover"
               />
@@ -114,14 +114,14 @@ const Smobile = () => {
         </div>
       </div>
       <Testimonials />
-      <div className="h-[700px] flex items-center justify-center">
+      <div className="h-[700px] flex items-center justify-center mt-[-120px]">
         <div className="max-w-screen-xl mx-auto w-90 p-8 bg-white shadow-lg  overflow-hidden mt-20">
           <div className="flex flex-col md:flex-row">
             <div className="md:w-1/2 p-4 flex items-center justify-center">
               <img
-                src="https://a.media-amazon.com/images/S/aplus-media-library-service-media/3264a30b-ea2d-4aac-a8f3-ebeca911b0b7.__CR0,0,970,600_PT0_SX970_V1___.jpg"
+                src="https://img.freepik.com/free-photo/laptop-smartphone-cup-coffee-wooden-table-cafe_1142-42855.jpg"
                 alt="Refurbished Printer"
-                className="rounded-lg shadow-xl h-full object-cover"
+                className="rounded-lg shadow-xl h-full object-cover w-[800px] h-[500px]"
               />
             </div>
             <div className="md:w-1/2 p-4 mt-[76px]">
