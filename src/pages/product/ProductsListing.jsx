@@ -691,34 +691,36 @@ const PrinterProductList = () => {
         },
       ],
     },
-    ];
+  ];
   const handleProductClick = (product) => {
     console.log(product);
     navigate(`/product/${product.id}`, { state: { product } });
   };
 
   return (
-    <div className="mt-20 p-5 flex flex-col items-center min-h-screen bg-blue-100">
-      <h1 className="text-3xl font-extrabold mb-10">Shop deals by category</h1>
-      <section className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
-        {printerProducts.map((product) => (
-          <div
-            key={product.id}
-            className="flex flex-col items-center p-6 bg-white border border-gray-200 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300"
-            style={{ width: '350px', height: '350px' }}
-            onClick={() => handleProductClick(product)}
-          >
-            <img
-              src={product.imageUrl}
-              alt={product.name} 
-              className="h-48 w-48 mb-4 mt-[45px]"
-            />
-            <h2 className="text-lg text-center object-cover">{product.name}</h2>
+    <section id="serviceSection">
+      <div className="mt-20 p-5 flex flex-col items-center min-h-screen bg-blue-100">
+        <h1 className="text-3xl font-extrabold mb-10">Shop deals by category</h1>
+        <section className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+          {printerProducts.map((product) => (
+            <div
+              key={product.id}
+              className="flex flex-col items-center p-6 bg-white border border-gray-200 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300"
+              style={{ width: '350px', height: '350px' }}
+              onClick={() => handleProductClick(product)}
+            >
+              <img
+                src={product.imageUrl}
+                alt={product.name}
+                className="h-48 w-48 mb-4 mt-[45px]"
+              />
+              <h2 className="text-lg text-center object-cover">{product.name}</h2>
 
-          </div>
-        ))}
-      </section>
-    </div>
+            </div>
+          ))}
+        </section>
+      </div>
+    </section>
   );
 };
 
