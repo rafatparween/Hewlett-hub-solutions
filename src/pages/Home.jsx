@@ -312,8 +312,8 @@
 //                       <MobileFriendlyIcon className="mr-2" />
 //                       Mobile
 //                     </li>
-                    
-                    
+
+
 //                     <li
 //                       className="p-2 hover:bg-blue-100 cursor-pointer flex items-center"
 //                       onClick={() => handleNavigation('/Saudio')}
@@ -369,12 +369,310 @@
 
 
 
-import React, { useState } from 'react';
+// import React, { useState } from 'react';
+// import { useNavigate } from 'react-router-dom';
+// import Peace from '../components/Peace';
+// import Testimonials from '../components/Testimonials';
+// import Technicians from '../components/Technicians';
+// import HelpPage from '../sections/HelpPage';
+// import BuildIcon from '@mui/icons-material/Build';
+// import AccessTimeIcon from '@mui/icons-material/AccessTime';
+// import CheckCircleOutlineIcon from '@mui/icons-material/CheckCircleOutline';
+// import MobileFriendlyIcon from '@mui/icons-material/MobileFriendly';
+// import WifiIcon from '@mui/icons-material/Wifi';
+// import ComputerIcon from '@mui/icons-material/Computer';
+// import PrintIcon from '@mui/icons-material/Print';
+// import AudiotrackIcon from '@mui/icons-material/Audiotrack';
+// import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
+// import TabletIcon from '@mui/icons-material/Tablet';
+// import exampleImage from '../assets/mic.png';
+// import PopularServices from './Popularservice';
+// import PrinterProductList from './product/ProductsListing';
+// import Goodlooking from '../components/Goodlooking';
+
+// const Slider = () => {
+//   const [dropdownOpen, setDropdownOpen] = useState(false); // State to manage dropdown visibility
+//   const navigate = useNavigate(); // Use navigate for routing
+
+//   const handleNavigation = (path) => {
+//     navigate(path); // Navigate programmatically
+//     setDropdownOpen(false); // Close the dropdown after navigation
+//   };
+
+//   const toggleDropdown = () => {
+//     setDropdownOpen(!dropdownOpen); // Toggle dropdown visibility
+//   };
+
+//   return (
+//     <>
+//       {dropdownOpen && (
+//         <div
+//           className="fixed inset-0 bg-black opacity-30 z-30"
+//           onClick={() => setDropdownOpen(false)} // Close dropdown on clicking outside
+//         ></div>
+//       )}
+//       <div className="2xl:h-[600px] flex items-center justify-center ">
+//         <header className="bg-gradient-to-r from-[#191970] via-[#0099CC] to-[#003366] h-[600px] xl:w-[1836px] 2xl:w-[1836px] relative flex items-center">
+//           <div className="container mx-auto flex flex-col-reverse lg:flex-row items-center">
+//             <div className="text-white lg:w-1/2 p-8 ml-[203px]">
+//               <h1 className="text-[44px] lg:text-5xl font-semibold mb-4 font-sans">
+//               Get Online Support for All{' '}
+//                 <span className="font-bold font-sans">Your Streaming Device</span>
+//               </h1>
+//               <p className="mb-6 font-sans text-[20px]">
+//                 The best tech solution, ready to help you - anytime, anywhere.
+//               </p>
+//               <div className="relative">
+//                 <button
+//                   className="bg-white text-blue-500 rounded-lg shadow-lg w-full lg:w-2/3 p-4 flex justify-between items-center font-sans xl:w-[616px] 2xl:w-[616px] text-[24px]"
+//                   onClick={toggleDropdown} // Toggle the dropdown
+//                 >
+//                   I need help with...
+//                   <ArrowDropDownIcon className={`transition-transform ${dropdownOpen ? 'rotate-180' : ''}`} />
+//                 </button>
+//                 {dropdownOpen && (
+//                   <ul className="absolute left-0 right-0 bg-white shadow-md mt-2 z-50 rounded-md text-[#384c5e] text-[20px] font-sans">
+//                     <li
+//                       className="p-2 hover:bg-blue-100 cursor-pointer flex items-center"
+//                       onClick={() => handleNavigation('/Sprinters')}
+//                     >
+//                       <div className="mr-2 flex items-center justify-center w-8 h-8">
+//                         <PrintIcon className="mr-2" />
+//                       </div>
+//                       <p className='text-[24px] font-semibold font-sens text-[#191970]'>Printer</p>
+//                     </li>
+//                     <li
+//                       className="p-2 hover:bg-blue-100 cursor-pointer flex items-center"
+//                       onClick={() => handleNavigation('/Scomputer')}
+//                     >
+//                       <ComputerIcon className="mr-2" />
+//                       <p className='text-[24px] font-semibold font-sens text-[#191970]'>Computer</p>
+                      
+//                     </li>
+//                     <li
+//                       className="p-2 hover:bg-blue-100 cursor-pointer flex items-center"
+//                       onClick={() => handleNavigation('/Stab')}
+//                     >
+//                       <TabletIcon className="mr-2" />
+//                       <p className='text-[24px] font-semibold font-sens text-[#191970]'>Tab</p>
+                      
+//                     </li>
+//                     <li
+//                       className="p-2 hover:bg-blue-100 cursor-pointer flex items-center"
+//                       onClick={() => handleNavigation('/Swifi')}
+//                     >
+//                       <WifiIcon className="mr-2" />
+//                       <p className='text-[24px] font-semibold font-sens text-[#191970]'> WiFi & Network</p>
+                     
+//                     </li>
+//                     <li
+//                       className="p-2 hover:bg-blue-100 cursor-pointer flex items-center h-[64px] w-[616px]"
+//                       onClick={() => handleNavigation('/Smobile')}
+//                     >
+//                       <MobileFriendlyIcon className="mr-2" />
+//                       <p className='text-[24px] font-semibold font-sens text-[#191970]'>Mobile</p>
+                      
+//                     </li>
+
+
+//                     <li
+//                       className="p-2 hover:bg-blue-100 cursor-pointer flex items-center"
+//                       onClick={() => handleNavigation('/Saudio')}
+//                     >
+//                       <AudiotrackIcon className="mr-2" />
+//                       <p className='text-[24px] font-semibold font-sens text-[#191970]'> Audio & Video</p>
+                     
+//                     </li>
+//                   </ul>
+//                 )}
+//               </div>
+//             </div>
+//             <div className="lg:w-1/2">
+//               <img
+//                 src={exampleImage}
+//                 alt="Support Staff"
+//                 className="max-w-full w-[370] h-[460px] mt-[90px] object-cover"
+//               />
+//             </div>
+//           </div>
+//           <div className="absolute bottom-0 left-0 right-0 flex justify-around bg-blue-100 py-4">
+//             <div className="text-[#0992E9] flex items-center text-[20px] font-sans">
+//               <BuildIcon className="mr-2" style={{ color: '#1e3a8a' }} />
+//               Thousands of Techs Nationwide
+//             </div>
+//             <div className="text-[#0992E9] flex items-center text-[20px] font-sans">
+//               <AccessTimeIcon className="mr-2" style={{ color: '#1e3a8a' }} />
+//               Service as Soon as Today
+//             </div>
+//             <div className="text-[#0992E9] flex items-center text-[20px] font-sans">
+//               <CheckCircleOutlineIcon
+//                 className="mr-2"
+//                 style={{ color: '#1e3a8a' }}
+//               />
+//               Don't Pay Until It’s Done
+//             </div>
+//           </div>
+//         </header>
+//       </div>
+
+//       <section className="">
+//       </section>
+
+//       <PopularServices />
+//       <Peace />
+//       <Goodlooking />
+
+//       <PrinterProductList />
+
+//       <Testimonials />
+
+//       <Technicians />
+//     </>
+//   );
+// };
+
+// export default Slider;
+
+
+
+
+// import React, { useState, useEffect } from 'react';
+// import { useNavigate } from 'react-router-dom';
+// import Peace from '../components/Peace';
+// import Testimonials from '../components/Testimonials';
+// import Technicians from '../components/Technicians';
+// import BuildIcon from '@mui/icons-material/Build';
+// import AccessTimeIcon from '@mui/icons-material/AccessTime';
+// import CheckCircleOutlineIcon from '@mui/icons-material/CheckCircleOutline';
+// import MobileFriendlyIcon from '@mui/icons-material/MobileFriendly';
+// import WifiIcon from '@mui/icons-material/Wifi';
+// import ComputerIcon from '@mui/icons-material/Computer';
+// import PrintIcon from '@mui/icons-material/Print';
+// import AudiotrackIcon from '@mui/icons-material/Audiotrack';
+// import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
+// import TabletIcon from '@mui/icons-material/Tablet';
+// import exampleImage from '../assets/mic.png';
+// import PopularServices from './Popularservice';
+// import PrinterProductList from './product/ProductsListing';
+// import Goodlooking from '../components/Goodlooking';
+
+// const deviceNames = [
+//   "Streaming Device",
+//   "Printer",
+//   "Audio & Video",
+//   "WiFi & Network",
+// ];
+
+// const Slider = () => {
+//   const [dropdownOpen, setDropdownOpen] = useState(false);
+//   const [currentDeviceIndex, setCurrentDeviceIndex] = useState(0);
+//   const navigate = useNavigate();
+
+//   const handleNavigation = (path) => {
+//     navigate(path);
+//     setDropdownOpen(false);
+//   };
+
+//   const toggleDropdown = () => {
+//     setDropdownOpen(!dropdownOpen);
+//   };
+
+//   useEffect(() => {
+//     const interval = setInterval(() => {
+//       setCurrentDeviceIndex((prevIndex) => (prevIndex + 1) % deviceNames.length);
+//     }, 3000); // Change device every 3 seconds
+
+//     return () => clearInterval(interval);
+//   }, []);
+
+//   return (
+//     <>
+//       {dropdownOpen && (
+//         <div
+//           className="fixed inset-0 bg-black opacity-30 z-30"
+//           onClick={() => setDropdownOpen(false)}
+//         ></div>
+//       )}
+//       <div className="2xl:h-[600px] flex items-center justify-center">
+//         <header className="bg-gradient-to-r from-[#191970] via-[#0099CC] to-[#003366] h-[600px] xl:w-[1836px] 2xl:w-[1836px] relative flex items-center">
+//           <div className="container mx-auto flex flex-col-reverse lg:flex-row items-center">
+//             <div className="text-white lg:w-1/2 p-8 ml-[203px]">
+//               <h1 className="text-[44px] lg:text-5xl font-semibold mb-4 font-sans">
+//                 Get Online Support for All{' '}
+//                 <span className="font-bold font-sans">
+//                   Your
+//                 </span>
+//                 <span
+//                   style={{ padding: '14px' }}
+//                   className={`font-bold font-sans transition-transform duration-700 inline-block ${currentDeviceIndex === 0 ? "animate-out" : "animate-in"}`}
+//                 >
+//                   {deviceNames[currentDeviceIndex]}
+//                 </span>
+//               </h1>
+//               <p className="mb-6 font-sans text-[20px]">
+//                 The best tech solution, ready to help you - anytime, anywhere.
+//               </p>
+//               <div className="relative">
+//                 <button
+//                   className="bg-white text-blue-500 rounded-lg shadow-lg w-full lg:w-2/3 p-4 flex justify-between items-center font-sans xl:w-[616px] 2xl:w-[616px] text-[24px]"
+//                   onClick={toggleDropdown}
+//                 >
+//                   I need help with...
+//                   <ArrowDropDownIcon className={`transition-transform ${dropdownOpen ? 'rotate-180' : ''}`} />
+//                 </button>
+//                 {dropdownOpen && (
+//                   <ul className="absolute left-0 right-0 bg-white shadow-md mt-2 z-50 rounded-md text-[#384c5e] text-[20px] font-sans">
+//                     <li className="p-2 hover:bg-blue-100 cursor-pointer flex items-center" onClick={() => handleNavigation('/Sprinters')}>
+//                       <div className="mr-2 flex items-center justify-center w-8 h-8">
+//                         <PrintIcon className="mr-2" />
+//                       </div>
+//                       <p className='text-[24px] font-semibold font-sens text-[#191970]'>Printer</p>
+//                     </li>
+//                     {/* Other list items... */}
+//                   </ul>
+//                 )}
+//               </div>
+//             </div>
+//             <div className="lg:w-1/2">
+//               <img src={exampleImage} alt="Support Staff" className="max-w-full w-[370] h-[460px] mt-[90px] object-cover" />
+//             </div>
+//           </div>
+//           <div className="absolute bottom-0 left-0 right-0 flex justify-around bg-blue-100 py-4">
+//             <div className="text-[#0992E9] flex items-center text-[20px] font-sans">
+//               <BuildIcon className="mr-2" style={{ color: '#1e3a8a' }} />
+//               Thousands of Techs Nationwide
+//             </div>
+//             <div className="text-[#0992E9] flex items-center text-[20px] font-sans">
+//               <AccessTimeIcon className="mr-2" style={{ color: '#1e3a8a' }} />
+//               Service as Soon as Today
+//             </div>
+//             <div className="text-[#0992E9] flex items-center text-[20px] font-sans">
+//               <CheckCircleOutlineIcon className="mr-2" style={{ color: '#1e3a8a' }} />
+//               Don't Pay Until It’s Done
+//             </div>
+//           </div>
+//         </header>
+//       </div>
+
+//       <PopularServices />
+//       <Peace />
+//       <Goodlooking />
+//       <PrinterProductList />
+//       <Testimonials />
+//       <Technicians />
+//     </>
+//   );
+// };
+
+// export default Slider;
+
+
+
+import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import Peace from '../components/Peace';
 import Testimonials from '../components/Testimonials';
 import Technicians from '../components/Technicians';
-import HelpPage from '../sections/HelpPage';
 import BuildIcon from '@mui/icons-material/Build';
 import AccessTimeIcon from '@mui/icons-material/AccessTime';
 import CheckCircleOutlineIcon from '@mui/icons-material/CheckCircleOutline';
@@ -383,108 +681,112 @@ import WifiIcon from '@mui/icons-material/Wifi';
 import ComputerIcon from '@mui/icons-material/Computer';
 import PrintIcon from '@mui/icons-material/Print';
 import AudiotrackIcon from '@mui/icons-material/Audiotrack';
-import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown'; 
+import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import TabletIcon from '@mui/icons-material/Tablet';
 import exampleImage from '../assets/mic.png';
 import PopularServices from './Popularservice';
 import PrinterProductList from './product/ProductsListing';
+import Goodlooking from '../components/Goodlooking';
+// import './index.css'; // Make sure to import your CSS file
+
+const deviceNames = [
+  "Printer",
+  "Streaming Device",
+  "Streaming Device",
+  "Audio & Video",
+  "WiFi & Network",
+  "Computer",
+  "Mobile",
+  "Tab"
+];
 
 const Slider = () => {
-  const [dropdownOpen, setDropdownOpen] = useState(false); // State to manage dropdown visibility
-  const navigate = useNavigate(); // Use navigate for routing
+  const [dropdownOpen, setDropdownOpen] = useState(false);
+  const [currentDeviceIndex, setCurrentDeviceIndex] = useState(0);
+  const navigate = useNavigate();
 
   const handleNavigation = (path) => {
-    navigate(path); // Navigate programmatically
-    setDropdownOpen(false); // Close the dropdown after navigation
+    navigate(path);
+    setDropdownOpen(false);
   };
 
   const toggleDropdown = () => {
-    setDropdownOpen(!dropdownOpen); // Toggle dropdown visibility
+    setDropdownOpen(!dropdownOpen);
   };
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentDeviceIndex((prevIndex) => (prevIndex + 1) % deviceNames.length);
+    }, 3000); // Change device every 3 seconds
+
+    return () => clearInterval(interval);
+  }, []);
 
   return (
     <>
       {dropdownOpen && (
         <div
           className="fixed inset-0 bg-black opacity-30 z-30"
-          onClick={() => setDropdownOpen(false)} // Close dropdown on clicking outside
+          onClick={() => setDropdownOpen(false)}
         ></div>
       )}
-      <div className="2xl:h-[600px] flex items-center justify-center ">
-        <header className="bg-gradient-to-r from-[#1E3A8A] via-[#3B82F6] to-[#60A5FA] h-[600px] xl:w-[1836px] 2xl:w-[1836px] relative flex items-center">
+      <div className="2xl:h-[600px] flex items-center justify-center">
+        <header className="bg-gradient-to-r from-[#191970] via-[#0099CC] to-[#003366] h-[600px] xl:w-[1836px] 2xl:w-[1836px] relative flex items-center">
           <div className="container mx-auto flex flex-col-reverse lg:flex-row items-center">
             <div className="text-white lg:w-1/2 p-8 ml-[203px]">
               <h1 className="text-[44px] lg:text-5xl font-semibold mb-4 font-sans">
-                Get Online Support for your{' '}
-                <span className="font-bold font-sans">Streaming Device</span>
+                Get Online Support for All{' '}
+                <span className="font-bold font-sans">Your </span>
+                <span
+                  style={{ padding: '5px' }}
+                  className={`font-bold font-sans transition-transform duration-700 inline-block ${
+                    currentDeviceIndex === 0 ? "animate-out" : "animate-in"
+                  }`}
+                >
+                  {deviceNames[currentDeviceIndex]}
+                </span>
               </h1>
               <p className="mb-6 font-sans text-[20px]">
                 The best tech solution, ready to help you - anytime, anywhere.
               </p>
               <div className="relative">
-                {/* <button
+                <button
                   className="bg-white text-blue-500 rounded-lg shadow-lg w-full lg:w-2/3 p-4 flex justify-between items-center font-sans xl:w-[616px] 2xl:w-[616px] text-[24px]"
-                  onClick={toggleDropdown} // Toggle the dropdown
+                  onClick={toggleDropdown}
                 >
                   I need help with...
                   <ArrowDropDownIcon className={`transition-transform ${dropdownOpen ? 'rotate-180' : ''}`} />
-                </button> */}
+                </button>
                 {dropdownOpen && (
                   <ul className="absolute left-0 right-0 bg-white shadow-md mt-2 z-50 rounded-md text-[#384c5e] text-[20px] font-sans">
-                    <li
-                      className="p-2 hover:bg-blue-100 cursor-pointer flex items-center"
-                      onClick={() => handleNavigation('/Sprinters')}
-                    >
-                      <PrintIcon className="mr-2" />
-                      Printer
+                    <li className="p-2 hover:bg-blue-100 cursor-pointer flex items-center" onClick={() => handleNavigation('/Sprinters')}>
+                      <div className="mr-2 flex items-center justify-center w-8 h-8">
+                        <PrintIcon className="mr-2" />
+                      </div>
+                      <p className='text-[24px] font-semibold font-sens text-[#191970]'>Printer</p>
                     </li>
-                    <li
-                      className="p-2 hover:bg-blue-100 cursor-pointer flex items-center"
-                      onClick={() => handleNavigation('/Scomputer')}
-                    >
-                      <ComputerIcon className="mr-2" />
-                      Computer
-                    </li>
-                    <li
-                      className="p-2 hover:bg-blue-100 cursor-pointer flex items-center"
-                      onClick={() => handleNavigation('/Stab')}
-                    >
-                      <TabletIcon className="mr-2" />
-                      Tab
-                    </li>
-                    <li
-                      className="p-2 hover:bg-blue-100 cursor-pointer flex items-center"
-                      onClick={() => handleNavigation('/Swifi')}
-                    >
-                      <WifiIcon className="mr-2" />
-                      WiFi & Network
-                    </li>
-                    <li
-                      className="p-2 hover:bg-blue-100 cursor-pointer flex items-center h-[64px] w-[616px]"
-                      onClick={() => handleNavigation('/Smobile')}
-                    >
-                      <MobileFriendlyIcon className="mr-2" />
-                      Mobile
-                    </li>
-                    
-                    
-                    <li
-                      className="p-2 hover:bg-blue-100 cursor-pointer flex items-center"
-                      onClick={() => handleNavigation('/Saudio')}
-                    >
+                    <li className="p-2 hover:bg-blue-100 cursor-pointer flex items-center" onClick={() => handleNavigation('/Saudio')}>
                       <AudiotrackIcon className="mr-2" />
-                      Audio & Video
+                      <p className='text-[24px] font-semibold font-sens text-[#191970]'>Audio & Video</p>
+                    </li>
+                    <li className="p-2 hover:bg-blue-100 cursor-pointer flex items-center" onClick={() => handleNavigation('/Swifi')}>
+                      <WifiIcon className="mr-2" />
+                      <p className='text-[24px] font-semibold font-sens text-[#191970]'>WiFi & Network</p>
+                    </li>
+                    <li className="p-2 hover:bg-blue-100 cursor-pointer flex items-center" onClick={() => handleNavigation('/Scomputer')}>
+                      <ComputerIcon className="mr-2" />
+                      <p className='text-[24px] font-semibold font-sens text-[#191970]'>Computer</p>
+                    </li>
+                    <li className="p-2 hover:bg-blue-100 cursor-pointer flex items-center" onClick={() => handleNavigation('/Smobile')}>
+                      <MobileFriendlyIcon className="mr-2" />
+                      <p className='text-[24px] font-semibold font-sens text-[#191970]'>Mobile</p>
                     </li>
                   </ul>
                 )}
               </div>
             </div>
             <div className="lg:w-1/2">
-              <img
-                src={exampleImage}
-                alt="Support Staff"
-                className="max-w-full w-[370] h-[460px] mt-[90px] object-cover"
-              />
+              <img src={exampleImage} alt="Support Staff" className="max-w-full w-[370] h-[460px] mt-[90px] object-cover" />
             </div>
           </div>
           <div className="absolute bottom-0 left-0 right-0 flex justify-around bg-blue-100 py-4">
@@ -497,23 +799,17 @@ const Slider = () => {
               Service as Soon as Today
             </div>
             <div className="text-[#0992E9] flex items-center text-[20px] font-sans">
-              <CheckCircleOutlineIcon
-                className="mr-2"
-                style={{ color: '#1e3a8a' }}
-              />
+              <CheckCircleOutlineIcon className="mr-2" style={{ color: '#1e3a8a' }} />
               Don't Pay Until It’s Done
             </div>
           </div>
         </header>
       </div>
 
-      <section className="">
-      </section>
-
       <PopularServices />
       <Peace />
-      <PrinterProductList/>
-      
+      <Goodlooking />
+      <PrinterProductList />
       <Testimonials />
       <Technicians />
     </>
@@ -521,7 +817,4 @@ const Slider = () => {
 };
 
 export default Slider;
-
-
-
 

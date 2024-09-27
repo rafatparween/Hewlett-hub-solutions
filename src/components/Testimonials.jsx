@@ -131,7 +131,7 @@ const Testimonials = () => {
   ];
 
   return (
-    <div className="bg-white py-10 relative w-[1431px] ml-[231px]">
+    <div className="bg-white py-10 relative 2xl:w-[1431px] 2xl:ml-[231px] xl:w-[1414px] xl:ml-[52px]">
       <h2 className="text-center text-3xl font-bold mb-6 text-[#0C71C3] mt-[30px]">What our customers say</h2>
       <div className="relative">
         <button

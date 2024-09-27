@@ -38,7 +38,7 @@ import HelpPage from '../sections/HelpPage';
 const Peace = () => {
   return (
     <>
-      <div className="bg-blue-100 h-[700px] flex items-center justify-center">
+      <div className="bg-gradient-to-r from-[#191970] via-[#0099CC] to-[#003366] h-[700px] flex items-center justify-center">
         <div className="max-w-screen-xl mx-auto w-90 p-8 bg-white shadow-lg  overflow-hidden mt-20">
           <div className="flex flex-col md:flex-row">
             <div className="md:w-1/2 p-4">

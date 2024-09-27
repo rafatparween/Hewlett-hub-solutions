@@ -699,7 +699,7 @@ const PrinterProductList = () => {
 
   return (
     <section id="serviceSection">
-      <div className="mt-20 p-5 flex flex-col items-center min-h-screen bg-blue-100">
+      <div className=" p-5 flex flex-col items-center min-h-screen bg-gradient-to-r from-[#191970] via-[#0099CC] to-[#003366]">
         <h1 className="text-3xl font-extrabold mb-10">Shop deals by category</h1>
         <section className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
           {printerProducts.map((product) => (

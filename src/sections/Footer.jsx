@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
-    <footer className="bg-[black] text-gray-100 py-10">
+    <footer className="bg-gradient-to-r from-[#191970] via-[#0099CC] to-[#003366] text-gray-100 py-10">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           {/* Quick Links */}
@@ -72,7 +72,7 @@ const Footer = () => {
                 href="mailto:support@eztechprintersolutions.com"
                 className="hover:text-teal-200"
               >
-                support@hewletthubsolutions.com
+                support@hewlett-hubsolutions.com
               </a>
             </p>
           </div>

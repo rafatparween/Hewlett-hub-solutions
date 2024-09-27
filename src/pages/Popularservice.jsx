@@ -160,9 +160,9 @@ const PopularServices = () => {
   };
 
   return (
-    <div className="py-12">
+    <div className="py-12 mt-[33px]">
       <h2 className="text-2xl font-semibold text-center mb-8 text-[32px] text-[#0C71C3] font-sans">Popular Services</h2>
-      <div className="flex justify-center items-center">
+      <div className="flex justify-center items-center 2xl:w-[1558px] 2xl:ml-[121px] xl:w-[1313px] xl:ml-[69px]">
         <button onClick={() => scroll('left')} className="mr-4 p-2 bg-gray-200 rounded">
           <ArrowBackIosIcon />
         </button>
@@ -195,3 +195,7 @@ const PopularServices = () => {
 };
 
 export default PopularServices;
+
+
+
+
