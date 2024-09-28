@@ -200,6 +200,7 @@ const Navbar = () => {
     <div className="bg-white z-50 ">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-[120px]">
+        {/* <img className='h-[76px] w-[83px]' src='https://www.theexaminer.com/sites/theexaminer.com/files/styles/article_420/public/2022-08/51565990_1813180982127321_4250422175833522176_n.png?itok=DFmEmPkY'/> */}
           <div className="flex items-center">
             <Link to="/" className="text-[39px] text-[#0C71C3] font-sans 2xl:ml-[-225px]">
               Hewlett Hub Solutions
