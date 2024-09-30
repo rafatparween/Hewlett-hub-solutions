@@ -129,15 +129,15 @@ import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
 const PopularServices = () => {
   const servicesRef = useRef(null);
   const services = [
-    { name: 'Printers', path: 'Printer', image: 'https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08749687.png' },
-    { name: 'Computer Support', path: 'Bestcomputer', image: 'https://rapidtech.co.ke/wp-content/uploads/2022/07/dell-featured3.jpg' },
+    { name: 'Printer', path: 'Printer', image: 'https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08749687.png' },
+    { name: 'Computer', path: 'Bestcomputer', image: 'https://rapidtech.co.ke/wp-content/uploads/2022/07/dell-featured3.jpg' },
     { name: 'Tab', path: 'Tab', image: 'https://media.gettyimages.com/id/532305153/photo/apple-ipad-air-2-space-gray-black-with-clipping-paths.jpg?s=612x612&w=gi&k=20&c=tiSXmhkq0I4_1cfw8OFFaTiKy2EdXJyBnL96_okAJMc=' },
     { name: 'Wifi & Network', path: 'Bestwifi', image: 'https://rukminim2.flixcart.com/image/612/612/jhjg13k0/router/q/v/b/tp-link-tl-wa855re-original-imaff29ujypt3b8u.jpeg?q=70' },
     { name: 'Mobile Devices', path: 'Mobile', image: 'https://m.media-amazon.com/images/I/71xb2xkN5qL._AC_UF1000,1000_QL80_.jpg' },
     { name: 'Audio & Video', path: 'Audio', image: 'https://www.altasami.com/images/av1.png' },
     // Duplicates for continuous scrolling (if necessary)
-    { name: 'Printers', path: 'Printer', image: 'https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08749687.png' },
-    { name: 'Computer Support', path: 'Bestcomputer', image: 'https://rapidtech.co.ke/wp-content/uploads/2022/07/dell-featured3.jpg' },
+    { name: 'Printer', path: 'Printer', image: 'https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08749687.png' },
+    { name: 'Computer ', path: 'Bestcomputer', image: 'https://rapidtech.co.ke/wp-content/uploads/2022/07/dell-featured3.jpg' },
     { name: 'Tab', path: 'Tab', image: 'https://media.gettyimages.com/id/532305153/photo/apple-ipad-air-2-space-gray-black-with-clipping-paths.jpg?s=612x612&w=gi&k=20&c=tiSXmhkq0I4_1cfw8OFFaTiKy2EdXJyBnL96_okAJMc=' },
     { name: 'Wifi & Network', path: 'Bestwifi', image: 'https://rukminim2.flixcart.com/image/612/612/jhjg13k0/router/q/v/b/tp-link-tl-wa855re-original-imaff29ujypt3b8u.jpeg?q=70' },
     { name: 'Mobile Devices', path: 'Mobile', image: 'https://m.media-amazon.com/images/I/71xb2xkN5qL._AC_UF1000,1000_QL80_.jpg' },

@@ -719,51 +719,55 @@ const PrinterProductList = () => {
   const printerProducts = [
     {
       id: 1,
-      name: 'Computers & Tablets',
-      imageUrl: 'https://image.made-in-china.com/2f0j00ZqlWgMuBgpYI/Computer-All-in-One-PC-Hardware-Software-24-Inch-Latest-Cheap-Ultra-Thin-Desktop-Computer.webp',
+      name: 'Computer Support',
+      imageUrl: 'https://i.ytimg.com/vi/r50ppRn-gZw/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBOm42QlbhH4KOHlVGhtODeyeksZw',
     },
     {
       id: 2,
-      name: 'Printer',
+      name: 'Printer Support',
       imageUrl: 'https://i1.adis.ws/i/canon/maxify-gx7050-ambient-reception-03_1920x1080-66d4a17cd389?w=100%&sm=aspect&aspect=16:9&qlt=100&scaleFit=poi&poi=0.4375,0.3888888888888889,0.125,0.2222222222222222&fmt=jpg&fmt.options=interlaced&bg=rgb(255,255,255)',
     },
     {
       id: 3,
-      name: 'Cell',
+      name: 'Audio & video Support',
       imageUrl: 'https://preview.redd.it/cozy-software-engineering-setup-v0-0h5drz8nbaea1.jpg?width=640&crop=smart&auto=webp&s=c13e7c8c6deda1b3061c64314ab614c766d6a7da',
     },
     {
       id: 4,
-      name: 'Laptop',
+      name: 'Wifi & Network Support',
       imageUrl: 'https://pisces.bbystatic.com/image2/BestBuy_US/images/products/d9fdc92a-9998-4561-92c5-9f3c6dbfe5ba.jpg;maxHeight=200;maxWidth=200',
     },
     {
       id: 5,
-      name: 'Printer & Ink',
+      name: 'Printer & Ink Support',
       imageUrl: 'https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6517/6517854_sd.jpg;maxHeight=178;maxWidth=300',
     },
     {
       id: 6,
-      name: 'Mobile',
+      name: 'Tab Support',
       imageUrl: 'https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6569/6569855_sd.jpg;maxHeight=200;maxWidth=298',
     },
     {
       id: 7,
-      name: 'Software Setup',
+      name: 'Laptop Support',
       imageUrl: 'https://preview.redd.it/cozy-software-engineering-setup-v0-0h5drz8nbaea1.jpg?width=640&crop=smart&auto=webp&s=c13e7c8c6deda1b3061c64314ab614c766d6a7da',
     },
     {
       id: 8,
-      name: '',
+      name: 'Mobile Support',
       imageUrl: 'https://pisces.bbystatic.com/image2/BestBuy_US/images/products/d9fdc92a-9998-4561-92c5-9f3c6dbfe5ba.jpg;maxHeight=200;maxWidth=200',
     },
   ];
 
   return (
     <div className="mt-20 p-5 flex flex-col items-center min-h-screen bg-gradient-to-r from-[#191970] via-[#0099CC] to-[#003366]">
-      <h1 className="text-white text-4xl font-extrabold mb-10 text-center mt-[120px]">
+      <h1 className="text-white text-4xl font-extrabold mb-10 text-center mt-[70px]">
         Schedule a service 
       </h1>
+      <h1 className="text-white text-[24px] font-extrabold text-center pb-[50px] pt-[-20px] mt-[-24px] ">
+      Book your appointment for repair, installation, troubleshooting.
+      </h1>
+      <p></p>
       <section className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-12">
         {printerProducts.map((product) => (
           <div
@@ -773,7 +777,7 @@ const PrinterProductList = () => {
             <img
               src={product.imageUrl}
               alt={product.name}
-              className="h-48 w-48 mb-4 object-cover rounded-md transition-transform duration-300 transform hover:scale-110"
+              className="h-[243px] w-[333px] mb-4 object-cover rounded-md transition-transform duration-300 transform hover:scale-110"
             />
             <h2 className="text-blue-600 text-lg text-center font-semibold">
               {product.name}
