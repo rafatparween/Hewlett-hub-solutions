@@ -779,7 +779,7 @@ const PrinterProductList = () => {
               alt={product.name}
               className="h-[243px] w-[333px] mb-4 object-cover rounded-md transition-transform duration-300 transform hover:scale-110"
             />
-            <h2 className="text-blue-600 text-lg text-center font-semibold">
+            <h2 className="text-[#0C71C3] text-lg text-center font-semibold">
               {product.name}
             </h2>
           </div>
