@@ -720,42 +720,42 @@ const PrinterProductList = () => {
     {
       id: 1,
       name: 'Computer Support',
-      imageUrl: 'https://i.ytimg.com/vi/r50ppRn-gZw/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBOm42QlbhH4KOHlVGhtODeyeksZw',
+      imageUrl: 'https://www.shutterstock.com/image-vector/remote-support-online-remotely-access-600nw-1331918702.jpg',
     },
     {
       id: 2,
       name: 'Printer Support',
-      imageUrl: 'https://i1.adis.ws/i/canon/maxify-gx7050-ambient-reception-03_1920x1080-66d4a17cd389?w=100%&sm=aspect&aspect=16:9&qlt=100&scaleFit=poi&poi=0.4375,0.3888888888888889,0.125,0.2222222222222222&fmt=jpg&fmt.options=interlaced&bg=rgb(255,255,255)',
+      imageUrl: 'https://www.shutterstock.com/image-photo/modern-office-pc-printers-copiers-260nw-288643019.jpg',
     },
     {
       id: 3,
       name: 'Audio & video Support',
-      imageUrl: 'https://preview.redd.it/cozy-software-engineering-setup-v0-0h5drz8nbaea1.jpg?width=640&crop=smart&auto=webp&s=c13e7c8c6deda1b3061c64314ab614c766d6a7da',
+      imageUrl: 'https://cdn.prod.website-files.com/615243a00511f95546e9f148/62e1a7c07f1cb40f6cc2e666_shutterstock_1540480613_60efe0fcb241534a650546c019092392_2000.jpeg',
     },
     {
       id: 4,
       name: 'Wifi & Network Support',
-      imageUrl: 'https://pisces.bbystatic.com/image2/BestBuy_US/images/products/d9fdc92a-9998-4561-92c5-9f3c6dbfe5ba.jpg;maxHeight=200;maxWidth=200',
+      imageUrl: 'https://static.vecteezy.com/system/resources/previews/026/754/076/original/internet-of-things-technology-with-wi-fi-compatibility-hand-holding-wifi-connection-with-icon-refers-to-the-technology-of-transmitting-wireless-signals-to-electronic-devices-to-work-as-instructed-vector.jpg',
     },
     {
       id: 5,
       name: 'Printer & Ink Support',
-      imageUrl: 'https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6517/6517854_sd.jpg;maxHeight=178;maxWidth=300',
+      imageUrl: 'https://t3.ftcdn.net/jpg/06/35/13/92/360_F_635139269_8mwPclNXVLrVTCbC6XZjgP12pNN3V6ov.jpg',
     },
     {
       id: 6,
       name: 'Tab Support',
-      imageUrl: 'https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6569/6569855_sd.jpg;maxHeight=200;maxWidth=298',
+      imageUrl: 'https://assets.mspimages.in/gear/wp-content/uploads/2024/09/Untitled-design-2024-09-09T180842.291.jpg?tr=h-300,t-true',
     },
     {
       id: 7,
       name: 'Laptop Support',
-      imageUrl: 'https://preview.redd.it/cozy-software-engineering-setup-v0-0h5drz8nbaea1.jpg?width=640&crop=smart&auto=webp&s=c13e7c8c6deda1b3061c64314ab614c766d6a7da',
+      imageUrl: 'https://www.humancentric.com/cdn/shop/products/laptopstand_3_2048x.jpg?v=1675101854',
     },
     {
       id: 8,
       name: 'Mobile Support',
-      imageUrl: 'https://pisces.bbystatic.com/image2/BestBuy_US/images/products/d9fdc92a-9998-4561-92c5-9f3c6dbfe5ba.jpg;maxHeight=200;maxWidth=200',
+      imageUrl: 'https://www.newsx.com/wp-content/uploads/2024/02/credits-19.jpg',
     },
   ];
 
