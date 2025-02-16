@@ -66,7 +66,7 @@ const Footer = () => {
           <div>
             <h3 className="text-2xl font-bold text-white mb-4">Get in Touch</h3>
             <p>+(1) 888-291-3869</p>
-            <p>89 Woodland Center, USA</p>
+            <p>7901 4th Street North St. Petersburg Florida united states 33702</p>
             <p>
               <a
                 href="mailto:support@eztechprintersolutions.com"
